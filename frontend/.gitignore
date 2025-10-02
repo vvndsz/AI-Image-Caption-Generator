@@ -1,0 +1,117 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+# ========================
+# Node (Frontend)
+# ========================
+/node_modules
+/.pnp
+.pnp.js
+/build
+/coverage
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ========================
+# React Scripts & Cache
+# ========================
+.eslintcache
+.cache/
+.vite/
+dist/
+
+# ========================
+# Python (Backend)
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.sqlite3
+.env
+.env.*
+*.env
+!.env.example
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# Models & Checkpoints (Hugging Face / Torch)
+*.pth
+*.pt
+*.bin
+*.ckpt
+models/
+model_cache/
+huggingface/
+transformers_cache/
+*.onnx
+
+# Jupyter / Colab
+.ipynb_checkpoints
+*.ipynb
+
+# Black / mypy
+.mypy_cache/
+.pytest_cache/
+.tox/
+.cache/
+.coverage
+
+# FastAPI / Uvicorn logs
+instance/
+logs/
+*.log
+
+# ========================
+# macOS / Windows System
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# VSCode / JetBrains IDE
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# Docker
+# ========================
+*.tar
+*.sock
+docker-compose.override.yml
+docker.env
+.dockerignore
+
+# ========================
+# Misc + Backups
+# ========================
+*.bak
+*.swp
+*.swo
+*.tmp
+*.orig
+*.old
+*.zip
+*.7z
+*.tar.gz
+
+# ========================
+# Optional Remote Caches
+# ========================
+wandb/
+mlruns/
+runs/
