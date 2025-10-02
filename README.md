@@ -11,11 +11,11 @@ Generate intelligent and personalized image captions with tones like **casual**,
 - 📱 Ready for integration with social media APIs.
 
 **Home Page**
-![upload](\Upload.png)
+![upload](.\Upload.png)
 **Setting the tone**
-![tone](\Tone.png)
+![tone](.\Tone.png)
 **Generation of Caption**
-![caption](\Caption.png)
+![caption](.\Caption.png)
 
 ---
 
